@@ -14,7 +14,7 @@ import java.util.Date;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-@ApiModel(value = "Benim Pet Nesnem", description = "Benim Pet")
+@ApiModel(value = "Pet", description = "Benim Pet")
 public class Pet {
     @ApiModelProperty(value = "Pet nesnesinin tekil Id alanı")
     private int id;
